@@ -1,15 +1,23 @@
+// Step 1
 const userName = "Naz";
 
+//Step 2
 userName ? console.log(`Hello, ${userName}!`) : console.log("Hello!");
 
+//Step 3
 const userQuestion = "Is it a good day?";
 
+//Step 4
 console.log(`${userName} asked: ${userQuestion}`);
 
+//Step 5
 let randomNumber = Math.floor(Math.random() * 8);
 
+//Step 6
 let eightBall = "";
 
+
+//Step 7
 if (randomNumber === 0) {
   eightBall =  'It is certain'
 } else if (randomNumber === 1) {
@@ -30,4 +38,5 @@ if (randomNumber === 0) {
   console.log('Something is broken');
 }
 
+//Step 8
 console.log(eightBall)
