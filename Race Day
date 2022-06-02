@@ -1,0 +1,33 @@
+//Step 1
+let raceNumber = Math.floor(Math.random() * 1000);
+
+//Step 2
+const registeredEarly = false;
+
+//Step 3
+const runnersAge = 21;
+
+//Step 4
+if (registeredEarly && runnersAge > 18) {
+  raceNumber += 1000;
+}
+
+//Steps 5, 6, 7 & 9
+if (registeredEarly && runnersAge > 18) {
+  console.log(
+    `Your race will begin at 9:30 am, your race number is: ${raceNumber}.`
+  );
+} else if (runnersAge > 18 && !registeredEarly) {
+  console.log(
+    `Your race will begin at 11:00am, your race number is: ${raceNumber}.`
+  );
+} else if (runnersAge < 18) {
+  console.log(
+    `Your race will begin at 12:30 pm, your race number is: ${raceNumber} `
+  );
+} else {
+  console.log(`Please see the registration desk.`);
+}
+
+/*Step 8: Change registeredEarly value true to false and false to true
+Try different ages: under 18, 18 and over 18*/
