@@ -2,19 +2,19 @@
 const getSleepHours = (day) => {
   switch (day) {
     case "Monday":
-      return 8;
+      return 6;
     case "Tuesday":
-      return 7;
+      return 5;
     case "Wednesday":
-      return 8;
+      return 6;
     case "Thursday":
-      return 9;
+      return 4;
     case "Friday":
       return 6;
     case "Saturday":
-      return 10;
+      return 5;
     case "Sunday":
-      return 8;
+      return 6;
   }
 };
 
